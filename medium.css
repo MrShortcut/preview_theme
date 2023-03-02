@@ -135,6 +135,7 @@ body .mathjax-block {
 body img {
   max-width: 100%;
   /* filter: invert(1) !important; */
+  border-radius: 10px;
 }
 
 body ul {
@@ -205,7 +206,7 @@ body a {
 
 body a img {
   border: none;
-  filter: invert(1) !important;
+  /* filter: invert(1) !important; */
 }
 
 body h1 a,
