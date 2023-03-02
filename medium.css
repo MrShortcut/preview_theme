@@ -12,6 +12,7 @@ body {
   line-height: 1.58;
   letter-spacing: -0.003em;
   color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(0, 0, 0, 1); */
 }
 
 body p {
@@ -19,7 +20,7 @@ body p {
   line-height: 1.58;
   letter-spacing: -0.003em;
   color: rgba(0, 0, 0, 1);
-  filter: invert(1);
+  /* filter: invert(1); */
 }
 
 body h1,
@@ -42,7 +43,7 @@ body a:visited,
 body a:active {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
+  /* text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff; */
   box-shadow: inset 0 -1px 0 0 #fff, inset 0 -2px 0 0 #404247
 }
 
@@ -157,7 +158,8 @@ body ul > li:before {
 
 body li > p {
   margin-top: 0;
-  margin-bottom: 0
+  margin-bottom: 0;
+  color: #fefefe;
 }
 
 body ol {
@@ -180,7 +182,7 @@ body blockquote {
 body blockquote p {
   font-style: normal;
   margin-bottom: 0;
-  color: #000;
+  color: #fff;
 }
 
 body code,
@@ -190,7 +192,7 @@ body pre {
   color: inherit
 }
 
-body pre.md-fences {
+body pre .md-fences {
   margin-left: 1em;
   padding-left: 1em;
   border: 1px solid #ddd;
@@ -245,16 +247,16 @@ body table thead th {
   vertical-align: bottom
 }
 
-body table caption+thead tr:first-child th,
-body table caption+thead tr:first-child td,
-body table colgroup+thead tr:first-child th,
-body table colgroup+thead tr:first-child td,
+body table caption + thead tr:first-child th,
+body table caption + thead tr:first-child td,
+body table colgroup + thead tr:first-child th,
+body table colgroup + thead tr:first-child td,
 body table thead:first-child tr:first-child th,
 body table thead:first-child tr:first-child td {
   border-top: 0
 }
 
-body table tbody+tbody {
+body table tbody + tbody {
   border-top: 2px solid #ddd
 }
 
